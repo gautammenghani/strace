@@ -19,7 +19,7 @@
 #include "number_set.h"
 #include "scno.h"
 
-bool seccomp_filtering;
+bool seccomp_filtering = true;
 bool seccomp_before_sysentry;
 
 #include <linux/seccomp.h>
